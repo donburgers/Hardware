@@ -26,7 +26,6 @@ This remix adapts TheTrain's original Open Stick for a specific leverless config
 
 This is the Open Stick, a 3D printable full sized arcade stick. This is a modular design sized to fit most printers.
 
-*(**Note to User donburgers:** The original description mentioned: "This was printed in matte black and matte red PLA from Bambu." You can describe what materials/colors YOU used for YOUR print below, or in the "Printing and Construction" notes specific to your build.)*
 
 ---
 
@@ -66,12 +65,11 @@ The following hardware is needed to assemble the case:
 
 - The M4 45mm brass standoffs slide into the 8x hex sockets in the left and right main frame. If these are tight please use a camp to force them in. Do not heat them for inserting. Future revisions will use an M4 heat insert.
 - The M3 bolts are used to secure the PCB to the right top panel. Currently these just screw directly into the plate. Future revisions will use an M3 heat insert on the top plate.
-- Four of the M4 12-16mm countersunk hex bolts are used to secure a Sanwa JLF or similar type joystick to the left top panel. This has space in it for a second JLF type dust washer. The JLF is then secured with 4x M4 flange nuts. *(**Note to User donburgers:** For your leverless build, you will adapt this part for button mounting instead of a joystick.)*
+- Four of the M4 12-16mm countersunk hex bolts are used to secure a Sanwa JLF or similar type joystick to the left top panel. This has space in it for a second JLF type dust washer. The JLF is then secured with 4x M4 flange nuts.
 - The two case halves are secured with 8x M4 25mm button top hex bolts and 8x M4 flang nuts. The direction of these bolts is not important. While normal nuts can be used flange nuts are recommend.
 - The remaining 16 M4 12-16mm bolts are used to secure the top and bottom plates to the unit. You can use many sizes here due to the 45mm standoffs being used. It is possible to convert this to an art case. To do that you can replace 8x or 4x of the top plate countersunk bolts with button top bolts. Doing this would also require modifications to the top plate files to make the holes non-countersunk.
 - To mount a Neutrik passthrough you will need the 2x M3 12mm countersunk hex bolts and 2x M3 nuts. The Neutrik passthrough will be a tight fit and may need to be clamped into place.
 
-*(**Note to User donburgers:** Add any specific assembly notes, tips, or deviations for YOUR leverless remix here.)*
 
 ---
 
@@ -80,7 +78,6 @@ The following hardware is needed to assemble the case:
 For a professional finish for your top panel, you can order a laser-cut acrylic piece using a service like SendCutSend. This project includes a `.dxf` file specifically for the top panel.
 
 **File to Use (Top Panel):** `laser_cut_acrylic_file.dxf`
-*(**Note to User donburgers:** Ensure this file is present in your GitHub repository, ideally in a clearly marked folder like `manufacturing_files` or `case_files/acrylic/`, and that the filename here matches exactly.)*
 
 **Recommended Specifications for Top Panel:**
 * **Material:** Acrylic - Clear
@@ -127,10 +124,12 @@ For a professional finish for your top panel, you can order a laser-cut acrylic 
 
 ## Files Included in This Remix Repository (by donburgers)
 
-* `Top_Panel_Leverless_donburgers_Remix.stl`
-* `Optional_Internal_PCB_Mount_for_Leverless.stl`
-* *(any other files you've modified or created specifically for your remix)*
-* ...
+* 3D Printable Case - Bottom Left Plate.stl
+* 3D Printable Case - Bottom Right Plate.stl
+* 3D Printable Case - Main Left Frame.stl
+* 3D Printable Case - Main Right Frame.stl
+* 3D Printable Case - Top Left Plate.stl
+* 3D Printable Case - Top Right Plate.stl
 * For original chassis and other unmodified common parts, please refer to TheTrain's project page.
 )*
 
@@ -138,8 +137,8 @@ For a professional finish for your top panel, you can order a laser-cut acrylic 
 
 ## Technologies Used (for this Remix by donburgers)
 
-* **3D CAD Software:** Fusion 360 *(Note to User donburgers: Confirm if you used this for your modifications. If you only used existing STLs, you might not list this or specify "STLs modified using [Tool X]").*
-* **PCB Design Software:** KiCad *(Note to User donburgers: Specify if you designed a custom PCB for this build. If not, you can remove this or state you used a standard controller board like GP2040-CE, etc.)*
+* **3D CAD Software:** Fusion 360
+* **PCB Design Software:** KiCad
 * **Slicer Software:** Bambu Lab Slicer (or specify your slicer of choice, e.g., PrusaSlicer, Cura)
 
 ---
@@ -147,9 +146,6 @@ For a professional finish for your top panel, you can order a laser-cut acrylic 
 ## License
 
 This project is a remix of the "Open Stick - Open Source 3D printable full sized arcade stick" by TheTrain, available on [Printables.com](https://www.printables.com/model/858059-open-stick-open-source-3d-printable-full-sized-arc).
-
-**Mandatory Attribution for Derivatives (from original work's requirements):**
-The original work by TheTrain (and/or the board component it is based on) has specific licensing terms that **must** be included in any distribution of derivatives. Please ensure the following text is included, along with any associated links if they were present in the original source of this requirement:
 
 ---
 The following text must be included in any distribution of derivatives of this board. All links must also be included.
@@ -159,13 +155,7 @@ Copyright 2023 TheTrain
 Licensed under CC BY 4.0
 ---
 
-The files and contributions in *this specific GitHub repository* (by donburgers) are licensed under [**YOUR CHOSEN LICENSE HERE FOR YOUR MODIFICATIONS**].
-*(**Note to User donburgers:** You still need to choose a license for your own modifications/additions. This license must be compatible with the CC BY 4.0 license of the original work. The Creative Commons Attribution 4.0 International (CC BY 4.0) license is a good option: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/))*
-
-If you choose to also license your modifications under CC BY 4.0, you could state:
-`This work, including original design aspects by donburgers, is licensed under CC BY 4.0. It incorporates and is a derivative of work that is "Based on the incredible work by Dash n'Mash. Copyright 2023 TheTrain. Licensed under CC BY 4.0".`
-
-Please ensure you respect all terms of the original license and the mandatory attribution text provided. *(**Note to User donburgers:** Remember to verify if "Dash n'Mash" originally had a hyperlink associated with it and include it if so.)*
+The files and contributions in *this specific GitHub repository* (by donburgers) are licensed under (https://creativecommons.org/licenses/by/4.0/))*
 
 ---
 
