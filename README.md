@@ -110,8 +110,8 @@ For a professional finish for your top panel, you can order a laser-cut acrylic 
 *(Based on images provided by user - these show the general selection process for a panel)*
 
 *Image 1: File Uploaded (`laser_cut_acrylic_file.dxf`)*
-*(You can embed an image like ![SendCutSend File Upload Example](Images/image_0673ef.png)
-[Description: SendCutSend interface showing the DXF file uploaded and dimensions.]
+* ![SendCutSend File Upload Example](Images/image_0673ef.png)
+
 
 *Image 2: Material & Thickness Selection (Acrylic - Clear, .118" / 3.0mm)*
 * ![SendCutSend Material Selection Example](Images/image_0677ca.png)*
@@ -127,7 +127,6 @@ For a professional finish for your top panel, you can order a laser-cut acrylic 
 
 ## Files Included in This Remix Repository (by donburgers)
 
-*(**Note to User donburgers:** List the specific STL files or other design files YOU are providing in *your* repository. For example:*
 * `Top_Panel_Leverless_donburgers_Remix.stl`
 * `Optional_Internal_PCB_Mount_for_Leverless.stl`
 * *(any other files you've modified or created specifically for your remix)*
