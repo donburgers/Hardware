@@ -9,7 +9,16 @@
 
 ## About This Remix by donburgers
 
-*(**Note to User donburgers:** Add details here about YOUR specific modifications, goals for this remix, any challenges you overcame, or specific components you chose for your leverless build. For example: "I adapted the top panel for a leverless layout and used [specific button types]. My focus was on [your goal].")*
+## About This Remix by donburgers
+
+This remix adapts TheTrain's original Open Stick for a specific leverless configuration with the following key modifications:
+
+* **Top Left Plate (`Open Stick - 3D Printable Case - Top Left Plate.stl`):**
+    * Converted the traditional lever opening to a 4-button directional layout (e.g., for WASD-style movement).
+    * Integrated a slot specifically for a 0.96-inch OLED I2C display module, allowing for potential future integration of visual feedback or button mapping displays.
+* **Top Right Plate (`Open Stick - 3D Printable Case - Top Right Plate (8x 30mm).stl`):**
+    * Modified the action button layout from the original 8x 30mm holes to support 8x 24mm arcade buttons.
+
 
 ---
 
@@ -37,8 +46,6 @@ This case was printed on a Bambu Labs X1C and P1P printer with the following cha
 
 Based on my prints you can make an entire case from a single roll of filament.
 This case was printed using Bambu Labs matte PLA filament, I have not tested it with other filament.
-
-*(**Note to User donburgers:** Add any specific notes about YOUR printing process here. For example: "I printed my version using [Your Filament Type/Brand] on a [Your Printer Model] with the following settings: [...]")*
 
 ---
 
@@ -103,12 +110,12 @@ For a professional finish for your top panel, you can order a laser-cut acrylic 
 *(Based on images provided by user - these show the general selection process for a panel)*
 
 *Image 1: File Uploaded (`laser_cut_acrylic_file.dxf`)*
-*(You can embed an image like `![SendCutSend File Upload Example](images/image_0673ef.png)` here if you upload it to your repo.)*
-`[Description: SendCutSend interface showing the DXF file uploaded and dimensions.]`
+*(You can embed an image like ![SendCutSend File Upload Example](Images/image_0673ef.png)
+[Description: SendCutSend interface showing the DXF file uploaded and dimensions.]
 
 *Image 2: Material & Thickness Selection (Acrylic - Clear, .118" / 3.0mm)*
-*(You can embed an image like `![SendCutSend Material Selection Example](images/image_0677ca.png)` here if you upload it to your repo.)*
-`[Description: SendCutSend interface showing material selection steps highlighting Acrylic - Clear and .118" (3.0mm) thickness.]`
+* ![SendCutSend Material Selection Example](Images/image_0677ca.png)*
+[Description: SendCutSend interface showing material selection steps highlighting Acrylic - Clear and .118" (3.0mm) thickness.]
 
 **Notes:**
 * These instructions are specifically for the **top panel** using `laser_cut_acrylic_file.dxf`. If you create DXF files for other parts (like a bottom panel), you would repeat the process with those files.
