@@ -1,6 +1,6 @@
 # Open Stick Remix - 3D Printable Leverless Arcade Controller by donburgers
 
-![Image of your assembled Open Stick](placeholder_image.jpg) This project is my remixed version of the **Open Stick**, an open-source, 3D printable, full-sized arcade stick originally designed by **TheTrain**. This version is focused on a leverless configuration.
+![Image of your assembled Open Stick](Images/placeholder_image.jpg) This project is my remixed version of the **Open Stick**, an open-source, 3D printable, full-sized arcade stick originally designed by **TheTrain**. This version is focused on a leverless configuration.
 
 **Original Project:** [Open Stick by TheTrain on Printables.com](https://www.printables.com/model/858059-open-stick-open-source-3d-printable-full-sized-arc)
 **Original Creator:** TheTrain (@TheTrain_2013092 on Printables.com)
